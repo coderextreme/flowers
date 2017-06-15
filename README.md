@@ -18,3 +18,17 @@ npm install
 ```
 
 But I think it's fine now.
+
+If you end up using a separate webserver besides node.js, for example, Python 2.7's SimpleHTTPServer ala:
+
+```bash
+C:\Python27\python -m SimpleHTTPServer 3000
+```
+
+You will need to go to the URL:
+
+http://localhost:3000/src/main/html/flowers.xhtml
+
+You can choose a different port here as well.
+
+
