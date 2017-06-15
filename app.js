@@ -61,4 +61,4 @@ app.get("/", function(req, res, next) {
 	sendNoNext(res, data.toString(), "application/xhtml+xml");
 });
 
-app.listen(port);
+app.listen(port, "127.0.0.1");
