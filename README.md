@@ -31,4 +31,8 @@ http://localhost:3000/src/main/html/flowers.xhtml
 
 You can choose a different port here as well.
 
+For Python 3, the command is:
 
+```bash
+python -m http.server 3000 --bind 127.0.0.1
+```
